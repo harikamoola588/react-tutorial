@@ -1,7 +1,8 @@
 import { useEffect, useState } from "react";
 
 // Base URL configuration (uses environment variable for deployment or defaults to localhost)
-const BASE_API_URL = http://my-first-app-env.eba-umrgj6yz.eu-north-1.elasticbeanstalk.com || "http://localhost:5000";
+const BASE_API_URL = "http://my-first-app-env.eba-umrgj6yz.eu-north-1.elasticbeanstalk.com";
+
 
 // The main API endpoint we are using for CRUD operations
 const USERS_ENDPOINT = `${BASE_API_URL}/api/users`;
